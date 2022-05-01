@@ -77,7 +77,7 @@ namespace _07_Server
         static void Main(string[] args)
         {
             int number = 10;
-            int processingtime = 450;
+            int processingtime = 125;
             int stoptime = 25;
             Server server = new Server(number, processingtime);
             Client client = new Client(server);
